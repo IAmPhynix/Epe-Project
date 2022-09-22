@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background: url(img/back1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;  
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container{
+   max-width: 600px;
+   min-width: 300px;
+   padding-bottom: 60px;
+   background: black;
+   margin: 100px 0; 
+}
+
+.form{
+
+    padding:20px 50px ;  
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:0 15px ;
+}
+
+
+h1{
+
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+
+
+
+.form input,select{
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 40px;
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.submit {
+    width: 70%;
+    margin-left: 60px;
+    border: none;
+    height: 44px;
+    color: black;
+    background: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.submit:hover{
+    cursor: pointer;
+    background: rgb(9, 236, 9);
+    color: white;
+    font-weight: bold;
+}
+
+.Surname{
+    grid-column: auto /span 2;
+}
+
+select{
+    color: rgb(255, 255, 255) !important;
+}
+
+option{
+    color: black;
+}

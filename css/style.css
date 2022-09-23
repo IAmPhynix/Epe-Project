@@ -8,7 +8,7 @@
 }
 
 body{
-    background: url(img/background.jpg);
+    background: url('../Assets/background.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -65,3 +65,4 @@ p{
     color: white;
     background: rgb(164, 107, 1);
 }
+

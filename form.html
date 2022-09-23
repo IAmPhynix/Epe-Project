@@ -6,31 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Registration</title>
 
-    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="./css/form.css">
 </head>
 <body>
     <div class="container">
-        <h1>Fill Your Data</h1>        
-        <div class="form">
+        <h1>Fill Your Data</h1>     
+
+            <form action="">
+
+            <div class="form">
             <div class="form-element Surname">
                 <p>Surname</p>
-                <input type="text" name="" placeholder="Surname">                
+                <input type="text" required name="surname" placeholder="Surname">                
             </div>
 
             <div class="form-element-">
                 <p>First Name</p>
-                <input type="text" name="" placeholder="First Name">              
+                <input type="text" required name="firstname" placeholder="First Name">              
             </div>
 
             <div class="form-element-right">
                 <p>Other Name</p>
-                <input type="text" name="" placeholder="Other Name">                            
+                <input type="text" required name="othername" placeholder="Other Name">                            
             </div>
 
             <div class="form-element">
+                <p>Sex</p>
+               <select name="" id="">
+                <option value="">Male</option>
+                <option value="">Female</option>
+               </select>                                   
+           </div>
+
+            <div class="form-element">
                  <p>Matrix No</p>
-                <input type="text" name="" placeholder="Matrix No">                                   
+                <input type="text" required name="Matrix No" placeholder="Matrix No">                                   
             </div>
+
+            <div class="form-element">
+                <p>Center</p>
+               <input type="text" required name=Center" placeholder="Center">                                   
+           </div>
 
             <div class="form-element">
                  <p>Department</p>  
@@ -63,11 +79,15 @@
                 <option value="">400 Level</option>
                </select>                    
             </div>
+            
             <input type="file">
         </div>
+        <button class="submit">Save & Continue </button> 
+
+    </form>        
         
         
-        <button class="submit">Save & Continue </button>    
+
         
        
     </div>
